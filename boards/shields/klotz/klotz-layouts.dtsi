@@ -46,5 +46,15 @@
             , <&key_physical_attrs 100 100 1316  243    1000  1366   293>
             ;
     };
+    
+    position_map {
+        compatible = "zmk,physical-layout-position-map";
 
+        complete;
+
+        layout {
+            physical-layout = <&physical_layout0>;
+            positions = <>;
+        };
+    };
 };
