@@ -50,8 +50,10 @@
     position_map {
         compatible = "zmk,physical-layout-position-map";
 
+        complete;
+
         layout {
-            physical-layout = <&layout>;
+            physical-layout = <&physical_layout_0>;
             positions = <>;
         };
     };
