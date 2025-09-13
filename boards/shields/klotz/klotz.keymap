@@ -23,35 +23,35 @@
                 key-positions = <0 1>;
                 bindings = <&kp ESC>;
             };
-            combo_lbkt {
+            combo_lpar {
                 timeout-ms = <50>;
                 key-positions = <3 13>;
-                binding = <&kp LBKT>;
+                bindings = <&kp LPAR>;
             };
-            combo_rbkt {
+            combo_rpar {
                 timeout-ms = <50>;
                 key-positions = <6 16>;
-                binding = <&kp RBKT>;
+                bindings = <&kp RPAR>;
             };
             combo_lbrc {
                 timeout-ms = <50>;
                 key-positions = <2 12>;
-                binding = <&kp LBRC>;
+                bindings = <&kp LBRC>;
             };
             combo_rbrc {
                 timeout-ms = <50>;
                 key-positions = <7 17>;
-                binding = <&kp RBRC>;
+                bindings = <&kp RBRC>;
             };
             combo_lbkt {
                 timeout-ms = <50>;
                 key-positions = <1 11>;
-                binding = <&kp LBKT>;
+                bindings = <&kp LBKT>;
             };
             combo_rbkt {
                 timeout-ms = <50>;
                 key-positions = <8 18>;
-                binding = <&kp RBKT>;
+                bindings = <&kp RBKT>;
             };
     };
 
