@@ -93,7 +93,7 @@ label= "BASE"                              ;
     &kp B       &kp L       &kp D       &kp C       &kp V           &kp J       &kp L       &kp U       &kp Y       &kp COMMA
     &mt LGUI N  &mt LALT R  &mt LSHFT T &mt LCTRL S &kp G           &kp P       &mt RCTRL H &mt LSHFT A &mt RALT E  &mt RGUI I
     &kp X       &kp Q       &kp M       &kp W       &kp Z           &kp K       &kp F       &kp APOS    &kp SEMI    &kp DOT
-                                        &lt NAVI SPACE  &lt SYM TAB &lt SYM RET &kp BSPC    
+                                        &lt NAV SPACE  &lt SYM TAB &lt SYM RET &kp BSPC    
                         >;
             sensor-bindings = <&inc_dec_kp UP DOWN>;
                 };
