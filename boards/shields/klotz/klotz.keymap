@@ -93,9 +93,9 @@ label= "BASE"                              ;
     &kp B       &kp L       &kp D       &kp C       &kp V           &kp J       &kp L       &kp U       &kp Y       &kp COMMA
     &mt LGUI N  &mt LALT R  &mt LSHFT T &mt LCTRL S &kp G           &kp P       &mt RCTRL H &mt LSHFT A &mt RALT E  &mt RGUI I
     &kp X       &kp Q       &kp M       &kp W       &kp Z           &kp K       &kp F       &kp APOS    &kp SEMI    &kp DOT
-                                        &kp SPACE     &lt NAV TAB   &lt SYM RET &kp BSPC    
+                                        &lt NAVI SPACE  &lt SYM TAB &lt SYM RET &kp BSPC    
                         >;
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp UP DOWN>;
                 };
 
 // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
@@ -133,21 +133,21 @@ label= "NAVI"                              ;
 label= "SYM"                               ;
 // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 // ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
-// ┃     !     ┃     @     ┃     #     ┃     $     ┃     %     ┃   ┃     ˆ     ┃     &     ┃     Ü     ┃     '     ┃     "     ┃
+// ┃           ┃     7     ┃     8     ┃     9     ┃           ┃   ┃           ┃     7     ┃     8     ┃     9     ┃           ┃
 // ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
-// ┃     Ä     ┃           ┃    SZ     ┃           ┃           ┃   ┃   MUTE    ┃   YEN     ┃   EURO    ┃  POUND    ┃     Ö     ┃
+// ┃           ┃     4     ┃     5     ┃     6     ┃           ┃   ┃           ┃     4     ┃     5     ┃     6     ┃           ┃
 // ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
-// ┃  EMAIL1   ┃  EMAIL2   ┃           ┃           ┃           ┃   ┃   VOL-    ┃   VOL+    ┃   LAST    ┃   NEXT    ┃     \     ┃
+// ┃           ┃     1     ┃     2     ┃     3     ┃           ┃   ┃           ┃     1     ┃     2     ┃     3     ┃           ┃
 // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
-//                                     ┃    GIF    ┃  ADJUST   ┃   ┃           ┃   PLAY    ┃   
+//                                     ┃     0     ┃  ADJUST   ┃   ┃           ┃     0     ┃   
 //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┛
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷
 
-    &kp EXCL    &kp AT      &kp HASH    &kp DLLR    &kp PRCNT       &kp CARET   &kp AMPS    &kp RA(U)   &kp SQT     &kp DQT       
-    &kp RA(A)   &trans      &kp RA(S)   &trans      &trans          &kp C_MUTE  &kp LS(RA(N4)) &kp RA(N5) &kp RA(N4)   &kp RA(O) 
-    &kp RA(F18) &kp RA(F19) &trans      &trans      &trans          &kp C_VOL_DN &kp C_VOL_UP &kp C_PREV &kp C_NEXT  &kp BSLH      
-                                        &gif        &mo ADJ         &trans      &kp C_PP
+    &kp EXCL    &kp N7      &kp N8      &kp N9      &kp PRCNT       &kp CARET    &kp N7      &kp N8     &kp N9      &kp DQT       
+    &kp RA(A)   &kp N4      &kp N5      &kp N6      &trans          &kp C_MUTE   &kp N4      &kp N5     &kp N6      &kp RA(O) 
+    &kp RA(F18) &kp N1      &kp N2      &kp N3      &trans          &kp C_VOL_DN &kp N1      &kp N2     &kp N3      &kp BSLH      
+                                        &kp N0      &mo ADJ         &trans       &kp N0
                         >;
                 sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
                 };
